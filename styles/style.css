@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#logo {
+  margin-top: 0.6%;
+  padding: 2px;
+}
+
+nav .brand-logo {
+  font-size: 1rem;
+  line-height: 18px;
+  margin-top: 1%;
+}
+
+.page-footer{
+    background-color: teal;
+}
+
+div .nav-wrapper {
+  background-color: teal;
+}
+
+#login {
+  float: none;
+  text-align: center;
+}
+
+#conti1,
+#conti2 {
+  display: none;
+}
